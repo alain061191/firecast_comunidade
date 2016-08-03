@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- standart -->
+    <string name="app_name">FireCast Comunidade</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_monitoramento">Monitoramento</string>
+    <string name="title_activity_configuracao">Configurações</string>
+    <string name="title_activity_definir_senha">Definir senha</string>
+    <string name="title_activity_definir_interesses">Definir Interesses</string>
+    <string name="title_activity_definir_abrangencia">Definir Abrangência</string>
+    <string name="title_activity_ocorrencias_todas">Ocorrências</string>
+    <string name="title_activity_ocorrencia_interesse">Ocorrências - Interesses</string>
+    <string name="title_activity_ocorrencia_proxima">Ocorrências - Abrangência</string>
+    <string name="title_activity_detalhe_ocorrencia">Ocorrência - Detalhes</string>
+    <string name="title_activity_verifica_cidade">Cidade</string>
+    <string name="title_activity_definir_cidade">Definir Cidade</string>
+    <string name="title_activity_notificacao">Notificações</string>
+
+    <!-- utilizado por varias activitys -->
+    <string name="teste">teste</string>
+    <string name="toast_info_informe_nome">Informe seu nome!</string>
+    <string name="tv_info_ocorrencias">A pesquisa não retornou resultados.</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="tv_senha">Informe sua senha</string>
+    <string name="reticencias">...</string>
+
+    <!-- Detalhes Ocorrencia activity -->
+    <string name="info_sem_informacao">Sem informação</string>
+    <string name="btn_compartilhar">Compartilhar</string>
+    <string name="btn_a_caminho_activity_detalhes_ocorrencia">A caminho! (em breve.)</string>
+    <string name="btn_mostrar_no_mapa_activity_detalhes_ocorrencia">Mostrar no mapa</string>
+    <string name="tv_bairro_activity_detalhes_ocorrencia">Bairro: </string>
+    <string name="tv_distancia_activity_detalhes_ocorrencia">Distância (aproximada): </string>
+    <string name="tv_tipo_activity_detalhes_ocorrencia">Tipo: </string>
+    <string name="tv_cidade_activity_detalhes_ocorrencia">Cidade: </string>
+    <string name="tv_logradouro_activity_detalhes_ocorrencia">Logradouro: </string>
+    <string name="tv_complemento_activity_detalhes_ocorrencia">Complemento: </string>
+    <string name="tv_numero_activity_detalhes_ocorrencia">Número: </string>
+    <string name="tv_referencia_activity_detalhes_ocorrencia">Referência: </string>
+    <string name="tv_descricao_activity_detalhes_ocorrencia">Descrição: </string>
+    <string name="tv_viatura_activity_detalhes_ocorrencia">Viatura(s) empenhada(s): </string>
+    <string name="tv_data_activity_detalhes_ocorrencia">Data: </string>
+    <string name="toast_info_abrindo_navegador">Abrindo o navegador</string>
+    <string name="toast_info_endereco_insificiente">Endereço insuficiente</string>
+
+    <!-- Configuracao activity -->
+    <string name="toast_info_erro_api_geocoder">Erro! Google API Geocoder precisa estar instalado. Não será possível determinar a localização das ocorrências</string>
+    <string name="btn_senha">Senha</string>
+    <string name="btn_tipo_emergencia">Tipo de ocorrências</string>
+    <string name="btn_abrangencia">Raio de abrangência</string>
+    <string name="btn_cidade">Fixar região</string>
+    <string name="btn_notificacao">Notificações</string>
+
+    <!-- Definir Cidade activity -->
+    <string name="info_erro_localizacao">não foi possível determinar a sua localização, favor informe a sua região de Santa Catarina?</string>
+    <string name="toast_info_selecionar_cidade">Selecione a sua região</string>
+    <string name="tv_cidade">Estou em:</string>
+
+    <!-- Definir senha activity -->
+    <string name="toast_info_senha_em_branco">A senha deve ser preenchida</string>
+    <string name="toast_info_erro_criptografia">Erro na criptografia da senha!</string>
+    <string name="sw_senha">Exigir senha ao iniciar?</string>
+    <string name="btn_limpar_senha">Limpar senha</string>
+
+    <!-- Login activity -->
+    <string name="toast_info_informe_nome_senha">Informe seu nome/senha</string>
+    <string name="toast_erro_usuario_senha_incorretos">Usuario/senha incorretos</string>
+    <string name="toast_erro_critografia_limpar_dados">Erro na criptografia! Erro na autenticação, limpe os dados do App para reiniciar as configurações</string>
+    <string name="tv_nome">Informe seu nome</string>
+
+    <!-- Monitoramento activity -->
+    <string name="dialog_gps">GPS desativado, deseja ativar?</string>
+    <string name="tv_gps_desativado">Localização desativada</string>
+    <string name="tv_gps_ativado">Provedor de localização em uso:</string>
+    <string name="tbtn_yes">Sim</string>
+    <string name="tbtn_no">Não</string>
+    <string name="tv_status_monitoramento">Monitorar ocorrências 193?</string>
+    <string name="btn_parar">Parar</string>
+    <string name="tv_ocorrencias_em_andamento">Ver ocorrências em andamento:</string>
+    <string name="btn_todas">Todas</string>
+    <string name="btn_selecionadas">Selecionadas</string>
+    <string name="tv_localizacao">Minha localização:</string>
+    <string name="tv_ocorrencias">Sem ocorrencias</string>
+
+    <!-- Ocorrencias todas activity -->
+    <string name="tv_info_erro_parametro_cidade_tipo_emergencia">Erro ao buscar ocorrências. Parâmetro de cidade ou tipo esta ausente!</string>
+    <string name="tv_info_pesquisando">Pesquisando...</string>
+    <string name="tv_info_sem_resultado">A pesquisa não retornou resultados.</string>
+
+    <!-- verifica cidade activity -->
+    <string name="tv_cidade_erro_localizacao">não foi possível determinar a sua localização, você esta em qual cidade de Santa Catarina?</string>
+    <string name="toast_selecionar_cidade">Selecione a sua cidade</string>
+    <string name="tv_escolher_cidade">Selecione a cidade desejada: </string>
+    <string name="cb_fixar_cidade">Fixar cidade e não perguntar ao iniciar</string>
+
+    <!-- definir abrangencia activity -->
+    <string name="tv_raio_info">Raio de abrangência para a busca com GPS (km)"</string>
+    <string name="tv_raio">0 km</string>
+    <string name="km_ui">km</string>
+
+    <!-- notificacao activity -->
+    <string name="cb_notificar">Criar notificações</string>
+    <string name="cb_exibir_msg">Exibir mensagem</string>
+    <string name="cb_tocar_som">Tocar som</string>
+    <string name="cb_vibrar">Vibrar</string>
+    <string name="title_activity_teste_branco">TesteBranco</string>
+    
+    <!-- Notification -->
+    <string name="notificacao_action_map">Mapa</string>
+    <string name="notificacao_action_share">Compartilhar</string>
+    
+</resources>

@@ -1,0 +1,115 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<resources>
+    
+    <!-- Standart -->
+    <string name="app_name">FireCast Comunidade</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_monitoramento">Monitoring</string>
+    <string name="title_activity_configuracao">Settings</string>
+    <string name="title_activity_definir_senha">Set password</string>
+    <string name="title_activity_definir_interesses">Set Interests</string>
+    <string name="title_activity_definir_abrangencia">Define Scope</string>
+    <string name="title_activity_ocorrencias_todas">Events</string>
+    <string name="title_activity_ocorrencia_interesse">Occurrences - Interests</string>
+    <string name="title_activity_ocorrencia_proxima">Occurrences - Scope</string>
+    <string name="title_activity_detalhe_ocorrencia">Occurrence - Details</string>
+    <string name="title_activity_verifica_cidade">City</string>
+    <string name="title_activity_definir_cidade">Set City</string>
+    <string name="title_activity_notificacao">Notifications</string>
+
+    <!-- Used by several activitys -->
+    <string name="teste">test</string>
+    <string name="toast_info_informe_nome">Enter your name!</string>
+    <string name="tv_info_ocorrencias">The search returns results.</string>
+    <string name="btn_salvar">Save</string>
+    <string name="tv_senha">Enter your password</string>
+    <string name="reticencias">...</string>
+
+    <!-- Details Occurrence activity -->
+    <string name="info_sem_informacao">No Information</string>
+    <string name="btn_compartilhar">Share</string>
+    <string name="btn_a_caminho_activity_detalhes_ocorrencia">The way! (Coming soon).</string>
+    <string name="btn_mostrar_no_mapa_activity_detalhes_ocorrencia">Show on map</string>
+    <string name="tv_bairro_activity_detalhes_ocorrencia">Neighborhood:</string>
+    <string name="tv_distancia_activity_detalhes_ocorrencia">Distance (approximate):</string>
+    <string name="tv_tipo_activity_detalhes_ocorrencia">Type:</string>
+    <string name="tv_cidade_activity_detalhes_ocorrencia">Location:</string>
+    <string name="tv_logradouro_activity_detalhes_ocorrencia">Exterior area:</string>
+    <string name="tv_complemento_activity_detalhes_ocorrencia">Complement:</string>
+    <string name="tv_numero_activity_detalhes_ocorrencia">Number:</string>
+    <string name="tv_referencia_activity_detalhes_ocorrencia">Reference:</string>
+    <string name="tv_descricao_activity_detalhes_ocorrencia">Description:</string>
+    <string name="tv_viatura_activity_detalhes_ocorrencia">Car (s) committed (s):</string>
+    <string name="tv_data_activity_detalhes_ocorrencia">Date:</string>
+    <string name="toast_info_abrindo_navegador">Opening the browser</string>
+    <string name="toast_info_endereco_insificiente">Insufficient Address</string>
+
+    <!-- Configuraton activity -->
+    <string name="toast_info_erro_api_geocoder">Error! Google Geocoder API must be installed. You can not determine the location of occurrences</string>
+    <string name="btn_senha">Password</string>
+    <string name="btn_tipo_emergencia">occurrences Type</string>
+    <string name="btn_abrangencia">Ray of scope</string>
+    <string name="btn_cidade">Fix region</string>
+    <string name="btn_notificacao">Notifications</string>
+
+    <!-- Set activity City -->
+    <string name="info_erro_localizacao">could not determine your location, please inform your region of Santa Catarina?</string>
+    <string name="toast_info_selecionar_cidade">Select your region</string>
+    <string name="tv_cidade">You are in:</string>
+
+    <!-- Set password activity -->
+    <string name="toast_info_senha_em_branco">The password must be filled</string>
+    <string name="toast_info_erro_criptografia">Error encryption password!</string>
+    <string name="sw_senha">Require password to start?</string>
+    <string name="btn_limpar_senha">Clear password</string>
+
+    <!-- Login activity -->
+    <string name="toast_info_informe_nome_senha">Enter your name / password</string>
+    <string name="toast_erro_usuario_senha_incorretos">User / Password Incorrect</string>
+    <string name="toast_erro_critografia_limpar_dados">Error encryption! Error in authentication, clean the App data to reset the settings</string>
+    <string name="tv_nome">Enter your name</string>
+
+    <!-- Activity monitoring -->
+    <string name="dialog_gps">off GPS, want to turn?</string>
+    <string name="tv_gps_desativado">Location disabled</string>
+    <string name="tv_gps_ativado">Location Provider in use:</string>
+    <string name="tbtn_yes">Yes</string>
+    <string name="tbtn_no">No</string>
+    <string name="tv_status_monitoramento">Monitor 193 occurrences?</string>
+    <string name="btn_parar">Stop</string>
+    <string name="tv_ocorrencias_em_andamento">View events in progress:</string>
+    <string name="btn_todas">All</string>
+    <string name="btn_selecionadas">Selected</string>
+    <string name="tv_localizacao">My Location:</string>
+    <string name="tv_ocorrencias">No occurrences</string>
+
+    <!-- Ocorrencias all activity -->
+    <string name="tv_info_erro_parametro_cidade_tipo_emergencia">Error fetching instances. City or parameter type is absent!</string>
+    <string name="tv_info_pesquisando">Searching ...</string>
+    <string name="tv_info_sem_resultado">The search returns results.</string>
+
+    <!-- Checks town activity -->
+    <string name="tv_cidade_erro_localizacao">could not determine your location, you are in what city of Santa Catarina?</string>
+    <string name="toast_selecionar_cidade">Select your city</string>
+    <string name="tv_escolher_cidade">Select the desired city:</string>
+    <string name="cb_fixar_cidade">Fix city and do not ask to start</string>
+
+    <!-- Set comprehensiveness activity -->
+    <string name="tv_raio_info">Ray of scope for the search with GPS (km) "</string>
+    <string name="tv_raio">0 km</string>
+    <string name="km_ui">km</string>
+
+    <!-- NOTIFICATION activity -->
+    <string name="cb_notificar">Create notifications</string>
+    <string name="cb_exibir_msg">View Message</string>
+    <string name="cb_tocar_som">Play Sound</string>
+    <string name="cb_vibrar">Vibrate</string>
+    <string name="title_activity_teste_branco">TesteBranco</string>
+    
+    <!-- Notification -->
+    <string name="notificacao_action_map">Map</string>
+    <string name="notificacao_action_share">Share</string>
+
+</resources>
